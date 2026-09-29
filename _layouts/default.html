@@ -1,0 +1,26 @@
+{%- assign depth = page.url | split: "/" | size | minus: 1 -%}
+{%- capture root %}{% for i in (1..depth) %}../{% endfor %}{% endcapture -%}
+<!DOCTYPE html>
+<html lang="sv-SE">
+	<head>
+		<meta charset="utf-8" />
+		<title>{% if page.title %}{{ page.title }} – {% endif %}BSBAB</title>
+		<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Referensbilder från Br. Söderbergs Bygg AB: {{ page.title | downcase }}.{% endif %}" />
+		<link rel="icon" href="{{ root }}media/favicon.png" type="image/png" />
+		<link rel="apple-touch-icon" href="{{ root }}media/apple-touch-icon.png" />
+		<link rel="stylesheet" href="{{ root }}base.css" type="text/css" />
+		<link rel="stylesheet" href="{{ root }}style.css" type="text/css" media="only screen" />
+{%- if page.stylesheet %}
+		<link rel="stylesheet" href="{{ root }}{{ page.stylesheet }}" type="text/css" media="only screen" />
+{%- endif %}
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	</head>
+	<body>
+{% include header.html %}
+		<main>
+{{ content }}
+		</main>
+
+{% include footer.html %}
+	</body>
+</html>

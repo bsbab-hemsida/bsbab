@@ -1,0 +1,12 @@
+lang: sv-SE
+
+exclude:
+  - README.md
+  - scripts
+
+defaults:
+  - scope:
+      path: "references"
+    values:
+      layout: reference
+      stylesheet: references/style.css

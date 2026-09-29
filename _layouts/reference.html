@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{%- assign slug = page.dir | remove_first: "/references/" | remove: "/" %}
+			<h1>{{ page.title }}</h1>
+			<div class="gallery">
+{%- for image in site.data.gallery[slug] %}
+				<a tabindex="0" href="{{ image.src }}"><img src="{{ image.thumb }}" height="320" alt="{{ page.title }}, bild {{ forloop.index }}"/></a>
+{%- endfor %}
+			</div>
+			<div class="reference-links">
+				<h2>Fler referenser</h2>
+				<ul>
+{%- for ref in site.data.references %}
+{%- if ref.slug == slug %}
+					<li class="active"><a>{{ ref.name }}</a></li>
+{%- else %}
+					<li><a tabindex="0" href="../{{ ref.slug }}/">{{ ref.name }}</a></li>
+{%- endif %}
+{%- endfor %}
+				</ul>
+			</div>

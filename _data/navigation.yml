@@ -1,0 +1,9 @@
+- id: home
+  name: Hem
+  url: index.html
+- id: about
+  name: Om oss
+  url: about/index.html
+- id: contact
+  name: Kontakt
+  url: contact/index.html

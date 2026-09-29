@@ -1,0 +1,340 @@
+{
+ "altaner": [
+  {
+   "src": "1.jpg",
+   "thumb": "1.jpg"
+  },
+  {
+   "src": "2.jpg",
+   "thumb": "2.jpg"
+  },
+  {
+   "src": "3.jpg",
+   "thumb": "3.jpg"
+  },
+  {
+   "src": "4.jpg",
+   "thumb": "4.jpg"
+  },
+  {
+   "src": "5.jpg",
+   "thumb": "5.jpg"
+  },
+  {
+   "src": "6.jpg",
+   "thumb": "6.jpg"
+  },
+  {
+   "src": "7.jpg",
+   "thumb": "7.jpg"
+  },
+  {
+   "src": "8.jpg",
+   "thumb": "8.jpg"
+  },
+  {
+   "src": "9.jpg",
+   "thumb": "9.jpg"
+  },
+  {
+   "src": "10.jpg",
+   "thumb": "10.jpg"
+  },
+  {
+   "src": "11.jpg",
+   "thumb": "11.jpg"
+  },
+  {
+   "src": "12.jpg",
+   "thumb": "12.jpg"
+  },
+  {
+   "src": "13.jpg",
+   "thumb": "13.jpg"
+  },
+  {
+   "src": "14.jpg",
+   "thumb": "14.jpg"
+  },
+  {
+   "src": "15.jpg",
+   "thumb": "15.jpg"
+  },
+  {
+   "src": "16.jpg",
+   "thumb": "16.jpg"
+  },
+  {
+   "src": "17.jpg",
+   "thumb": "17.jpg"
+  },
+  {
+   "src": "18.jpg",
+   "thumb": "18.jpg"
+  },
+  {
+   "src": "19.jpg",
+   "thumb": "19.jpg"
+  },
+  {
+   "src": "20.jpg",
+   "thumb": "20.jpg"
+  },
+  {
+   "src": "21.jpg",
+   "thumb": "21.jpg"
+  },
+  {
+   "src": "22.jpg",
+   "thumb": "22.jpg"
+  },
+  {
+   "src": "23.jpg",
+   "thumb": "23.jpg"
+  },
+  {
+   "src": "24.jpg",
+   "thumb": "24.jpg"
+  },
+  {
+   "src": "25.jpg",
+   "thumb": "25.jpg"
+  },
+  {
+   "src": "26.jpg",
+   "thumb": "26.jpg"
+  },
+  {
+   "src": "27.jpg",
+   "thumb": "27.jpg"
+  },
+  {
+   "src": "28.jpg",
+   "thumb": "28.jpg"
+  },
+  {
+   "src": "29.jpg",
+   "thumb": "29.jpg"
+  }
+ ],
+ "badrum": [
+  {
+   "src": "1.jpg",
+   "thumb": "1.jpg"
+  },
+  {
+   "src": "2.jpg",
+   "thumb": "2.jpg"
+  },
+  {
+   "src": "3.jpg",
+   "thumb": "3.jpg"
+  },
+  {
+   "src": "4.jpg",
+   "thumb": "4.jpg"
+  },
+  {
+   "src": "5.jpg",
+   "thumb": "5.jpg"
+  },
+  {
+   "src": "6.jpg",
+   "thumb": "6.jpg"
+  },
+  {
+   "src": "7.jpg",
+   "thumb": "7.jpg"
+  },
+  {
+   "src": "8.jpg",
+   "thumb": "8.jpg"
+  },
+  {
+   "src": "9.jpg",
+   "thumb": "9.jpg"
+  }
+ ],
+ "hus": [
+  {
+   "src": "1.jpg",
+   "thumb": "1.jpg"
+  },
+  {
+   "src": "2.jpg",
+   "thumb": "2.jpg"
+  },
+  {
+   "src": "3.jpg",
+   "thumb": "3.jpg"
+  },
+  {
+   "src": "4.jpg",
+   "thumb": "4.jpg"
+  },
+  {
+   "src": "5.jpg",
+   "thumb": "5.jpg"
+  },
+  {
+   "src": "6.jpg",
+   "thumb": "6.jpg"
+  },
+  {
+   "src": "7.jpg",
+   "thumb": "7.jpg"
+  },
+  {
+   "src": "8.jpg",
+   "thumb": "8.jpg"
+  },
+  {
+   "src": "9.jpg",
+   "thumb": "9.jpg"
+  }
+ ],
+ "kok": [
+  {
+   "src": "1.jpg",
+   "thumb": "1.jpg"
+  },
+  {
+   "src": "2.jpg",
+   "thumb": "2.jpg"
+  },
+  {
+   "src": "3.jpg",
+   "thumb": "3.jpg"
+  }
+ ],
+ "ovrigt": [
+  {
+   "src": "1.jpg",
+   "thumb": "1.jpg"
+  },
+  {
+   "src": "2.jpg",
+   "thumb": "2.jpg"
+  },
+  {
+   "src": "3.jpg",
+   "thumb": "3.jpg"
+  },
+  {
+   "src": "4.jpg",
+   "thumb": "4.jpg"
+  },
+  {
+   "src": "5.jpg",
+   "thumb": "5.jpg"
+  },
+  {
+   "src": "6.jpg",
+   "thumb": "6.jpg"
+  },
+  {
+   "src": "7.jpg",
+   "thumb": "7.jpg"
+  },
+  {
+   "src": "8.jpg",
+   "thumb": "8.jpg"
+  },
+  {
+   "src": "9.jpg",
+   "thumb": "9.jpg"
+  },
+  {
+   "src": "10.jpg",
+   "thumb": "10.jpg"
+  },
+  {
+   "src": "11.jpg",
+   "thumb": "11.jpg"
+  },
+  {
+   "src": "12.jpg",
+   "thumb": "12.jpg"
+  },
+  {
+   "src": "13.jpg",
+   "thumb": "13.jpg"
+  },
+  {
+   "src": "14.jpg",
+   "thumb": "14.jpg"
+  },
+  {
+   "src": "15.jpg",
+   "thumb": "15.jpg"
+  },
+  {
+   "src": "16.jpg",
+   "thumb": "16.jpg"
+  }
+ ],
+ "trappor": [
+  {
+   "src": "1.jpg",
+   "thumb": "1.jpg"
+  },
+  {
+   "src": "2.jpg",
+   "thumb": "2.jpg"
+  },
+  {
+   "src": "3.jpg",
+   "thumb": "3.jpg"
+  },
+  {
+   "src": "4.jpg",
+   "thumb": "4.jpg"
+  },
+  {
+   "src": "5.jpg",
+   "thumb": "5.jpg"
+  },
+  {
+   "src": "6.jpg",
+   "thumb": "6.jpg"
+  },
+  {
+   "src": "7.jpg",
+   "thumb": "7.jpg"
+  },
+  {
+   "src": "8.jpg",
+   "thumb": "8.jpg"
+  },
+  {
+   "src": "9.jpg",
+   "thumb": "9.jpg"
+  }
+ ],
+ "vattenrening": [
+  {
+   "src": "1.jpg",
+   "thumb": "1.jpg"
+  },
+  {
+   "src": "2.jpg",
+   "thumb": "2.jpg"
+  },
+  {
+   "src": "3.jpg",
+   "thumb": "3.jpg"
+  },
+  {
+   "src": "4.jpg",
+   "thumb": "4.jpg"
+  },
+  {
+   "src": "5.jpg",
+   "thumb": "5.jpg"
+  },
+  {
+   "src": "6.jpg",
+   "thumb": "6.jpg"
+  }
+ ]
+}

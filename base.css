@@ -1,30 +1,3 @@
-/* ============================================================
-   base.css — foundational styles for older systems (pre-2008):
-   IE6/IE7, Firefox 2, Safari 2/3, Opera 9 and similar.
-
-   Strict CSS 2.1 only. NO flexbox, viewport units (vh/vw/vmin),
-   custom properties (var()), rgba(), border-radius, box-shadow,
-   transitions or animations — none of which these browsers
-   understand.
-
-   This sheet loads for EVERY browser. Modern browsers then layer
-   style.css on top of it as progressive enhancement (style.css is
-   gated behind media="only screen", which pre-2008 browsers do
-   not understand and therefore ignore). Because style.css loads
-   after this file with equal-or-greater specificity, it wins the
-   cascade on modern browsers wherever the two overlap.
-
-   Note on ancient Internet Explorer (<= 7): it cannot style
-   unknown HTML5 elements (header/nav/main/footer) without a
-   scripted shiv, which this site deliberately avoids. There the
-   colour bands below simply won't paint, but the semantic source
-   order keeps every page fully readable — which is the intended
-   graceful-degradation baseline. Non-IE pre-2008 browsers style
-   these elements fine.
-   ============================================================ */
-
-/* Force block layout for HTML5 sectioning elements on the older
-   non-IE engines that recognise them. */
 header,
 nav,
 main,
@@ -46,39 +19,55 @@ body {
 }
 
 a {
-	color: #007bff;
+	color: #1d4ed8;
 }
 
 img {
-	border: 0; /* IE draws a border around linked images */
+	border: 0;
 }
 
-/* ---- Header: solid red brand band ---- */
-
 header {
-	background: #8d0000;
-	color: #ffffff;
+	background: #ffffff;
+	color: #1d4ed8;
 	padding: 8px;
+	overflow: hidden;
 }
 
 header a {
-	color: #ffffff;
+	color: #1d4ed8;
 }
 
-#logo,
-#slogan {
+#logo {
+	float: left;
 	height: 96px;
-	vertical-align: middle;
+	margin-right: 16px;
 }
 
-#contact-header {
+#slogan {
+	height: 64px;
+}
+
+#header-contact {
 	margin: 8px 0;
 }
 
-/* ---- Navigation: plain inline list, wraps on its own ---- */
+#header-contact div {
+	display: inline;
+	margin-right: 16px;
+}
+
+#header-contact p {
+	display: inline;
+	margin: 0;
+}
+
+#header-contact svg {
+	vertical-align: middle;
+	margin-right: 4px;
+}
 
 nav {
-	background: #8d0000;
+	background: #1d4ed8;
 	border-top: 1px solid #ffffff;
 	padding: 4px 0;
 }
@@ -100,14 +89,12 @@ nav a {
 
 nav a:hover {
 	background: #ffffff;
-	color: #8d0000;
+	color: #1d4ed8;
 }
 
 nav .active a {
 	font-weight: bold;
 }
-
-/* ---- Headings acting as section markers ---- */
 
 h1 {
 	margin: 0;
@@ -121,56 +108,149 @@ h2 {
 	padding: 12px 0;
 	text-align: center;
 	font-size: 150%;
-	border-bottom: 2px solid #8d0000;
+	border-bottom: 2px solid #1d4ed8;
 }
 
-/* ---- References: floated tiles with visible captions ---- */
-
-#references {
-	background: #8d0000;
+.reference-tiles {
+	background: #1d4ed8;
 	color: #ffffff;
 }
 
-#references ul {
+.reference-tiles ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	overflow: hidden; /* contains the floats (IE6/7: triggers layout) */
+	overflow: hidden;
 }
 
-#references li {
+.reference-tiles li {
 	float: left;
 	width: 33%;
+	height: 230px;
+	overflow: hidden;
 	text-align: center;
 }
 
-#references li a {
+.reference-tiles li a {
 	display: block;
 	color: #ffffff;
 	font-weight: bold;
 }
 
-#references li img {
+.reference-tiles li img {
 	display: block;
 	width: 100%;
 	height: auto;
 }
 
-/* ---- Closing contact block ---- */
-
-#home-closing {
+.contact-block {
 	text-align: center;
 	padding: 16px 0;
 }
 
-#home-closing a {
+.contact-links a {
 	display: block;
 	margin: 8px 0;
-	color: #8d0000;
+	color: #1d4ed8;
 	font-weight: bold;
 }
 
-/* ---- Footer ---- */
+.hero {
+	background: #1d4ed8;
+	color: #ffffff;
+	text-align: center;
+	padding: 24px;
+}
+
+.section {
+	padding: 16px 24px;
+}
+
+.button {
+	background: #1d4ed8;
+	color: #ffffff;
+	padding: 4px 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.facts {
+	margin: 16px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.facts li {
+	margin: 8px 0;
+	padding-left: 8px;
+	border-left: 4px solid #1d4ed8;
+}
+
+.facts strong {
+	display: block;
+	color: #1d4ed8;
+}
+
+.cta {
+	text-align: center;
+}
+
+.staff {
+	background: #1d4ed8;
+	color: #ffffff;
+	text-align: center;
+	padding-bottom: 16px;
+	overflow: hidden;
+}
+
+.person-card {
+	float: left;
+	margin: 16px 0 0 24px;
+	padding: 8px;
+	background: #ffffff;
+	color: #1d4ed8;
+}
+
+.person-card p {
+	margin: 0;
+}
+
+.person-card a {
+	color: #1d4ed8;
+}
+
+.gallery,
+.reference-links {
+	background: #1d4ed8;
+	color: #ffffff;
+	text-align: center;
+	padding: 8px 0;
+}
+
+.gallery img {
+	width: 32%;
+	height: auto;
+	margin: 4px;
+}
+
+.reference-links ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.reference-links li {
+	display: inline;
+}
+
+.reference-links a {
+	color: #ffffff;
+	padding: 0 8px;
+}
+
+.reference-links .active a {
+	font-weight: bold;
+}
 
 footer {
 	background: #ffffff;
@@ -180,12 +260,6 @@ footer {
 
 footer h3 {
 	margin-top: 0;
-}
-
-#sitemap ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
 }
 
 footer a {

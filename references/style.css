@@ -1,24 +1,66 @@
-main {
+.gallery {
+	padding: 0;
+	background-color: var(--color-primary);
+
 	display: flex;
 	flex-wrap: wrap;
 	align-items: stretch;
 	justify-content: center;
-
-	background-color: var(--color-primary);
 }
 
-main a {
+.gallery a {
 	flex: 1 1 auto;
 	height: 50vh;
-	overflow: hidden;
-	padding: 8px;
+	padding: 0.33rem;
 	box-sizing: border-box;
+	overflow: hidden;
 }
 
-main img {
-	height: 100%;
-	width: 100%;
+.gallery img {
 	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 0;
 	object-fit: cover;
-	border-radius: 1vmin;
+	border-radius: var(--radius);
+}
+
+.reference-links {
+	padding: 0 0 2em 0;
+	background-color: var(--color-primary);
+	color: var(--color-primary-contrast);
+	text-align: center;
+}
+
+.reference-links ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.reference-links li {
+	display: inline-block;
+}
+
+.reference-links a {
+	display: block;
+	margin: 0.3em;
+	padding: 0.5em 1em;
+	color: var(--color-primary-contrast);
+	border: 0.1em solid var(--color-primary-contrast);
+	border-radius: var(--radius);
+}
+
+.reference-links a:hover,
+.reference-links a:focus {
+	background-color: var(--color-primary-contrast);
+	color: var(--color-primary);
+}
+
+.reference-links .active a {
+	user-select: none;
+	pointer-events: none;
+	font-weight: bold;
+	background-color: var(--color-primary-contrast);
+	color: var(--color-primary);
 }

@@ -1,174 +1,50 @@
-<!DOCTYPE html>
-<html lang="sv-SE">
-	<head>
-		<meta charset="utf-8" />
-		<title>BSBAB</title>
-		<meta name="description" content="" />
-		<link rel="stylesheet" href="base.css" type="text/css" />
-		<link rel="stylesheet" href="style.css" type="text/css" media="only screen" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-	</head>
-	<body class="home">
-		<header>
-			<img
-				id="logo"
-				src="media/logo.png"
-				alt="Logotyp"
-				height="128"
-			/>
-			<div id="header-content">
-				<div id="header-info">
-					<img id="slogan"
-						src="media/slogan-accent.svg"
-						alt="Br. Söderbergs Bygg AB - Vi kör spikrakt"
-						height="128"
-					/>
-					<div id="contact-header">
-						<div>
-							<a href="mailto:mail@mail.mail">
-								<svg width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-								 <path id="Phone" d="M73.761 181.829 C86.188 194.236 99.305 205.437 113.113 215.431 126.921 225.426 140.729 233.353 154.537 239.212 168.345 245.071 181.42 248 193.761 248 202.132 248 209.942 246.492 217.191 243.477 224.44 240.461 230.999 235.722 236.867 229.26 240.319 225.469 243.038 221.398 245.023 217.047 247.008 212.696 248 208.323 248 203.929 248 200.655 247.353 197.532 246.058 194.559 244.764 191.586 242.563 189.023 239.456 186.869 L199.715 158.695 C196.695 156.627 193.89 155.076 191.301 154.042 188.712 153.008 186.252 152.491 183.922 152.491 180.988 152.491 178.14 153.288 175.379 154.882 172.617 156.476 169.769 158.738 166.835 161.667 L157.644 170.714 C156.349 172.093 154.71 172.782 152.725 172.782 151.689 172.782 150.718 172.61 149.812 172.265 148.906 171.92 148.151 171.619 147.547 171.36 143.491 169.206 138.313 165.48 132.013 160.181 125.713 154.882 119.37 149.045 112.984 142.669 106.684 136.293 100.859 129.96 95.508 123.67 90.157 117.381 86.447 112.254 84.375 108.291 84.03 107.602 83.707 106.805 83.405 105.9 83.102 104.995 82.951 104.069 82.951 103.121 82.951 101.226 83.599 99.632 84.893 98.339 L94.084 88.905 C96.932 85.975 99.176 83.132 100.816 80.375 102.455 77.618 103.275 74.774 103.275 71.845 103.275 69.519 102.736 67.063 101.657 64.478 100.578 61.893 98.96 59.093 96.803 56.078 L68.971 16.918 C66.727 13.816 64.052 11.554 60.945 10.132 57.838 8.711 54.559 8 51.107 8 42.218 8 33.89 11.748 26.123 19.244 19.823 25.275 15.228 31.931 12.337 39.212 9.446 46.492 8 54.268 8 62.54 8 74.947 10.891 87.978 16.673 101.635 22.455 115.291 30.308 128.969 40.233 142.669 50.158 156.368 61.333 169.422 73.761 181.829 Z"/>
-								</svg>
-								<p>mail@mail.mail</p>
-							</a>
-						</div>
-						<div>
-							<a href="tel:0736124213">
-								<svg width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-								 	<path id="Shape" d="M29.188 209.5 C17.748 209.5 8.814 200.141 8.814 189.111 L8.814 60.84 C24.232 76.314 73.394 125.63 106 158 116.172 168.098 138.776 168.045 149 158 185.142 122.49 230.916 76.321 246.814 60.254 L246.814 189.111 C246.814 200.559 237.462 209.5 226.441 209.5 L29.188 209.5 Z M127.814 143.824 C125.862 143.824 123.91 143.079 122.42 141.588 L27.904 47 227.725 47 133.211 141.588 C131.721 143.079 129.767 143.824 127.814 143.824 Z"/>
-								</svg>
-								<p>0736 - 12 42 13</p>
-							</a>
-						</div>
-					</div>
-				</div>
-				<nav aria-label="Huvudmeny">
-					<ul>
-						<li class="active"><a href="index.html" title='Hem'>Hem</a></li>
-						<li><a href="about/index.html" title='Om oss'>Om oss</a></li>
-						<li><a href="contact/index.html" title='Kontakt'>Kontakt</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		
-		<main>
-			<div id="home-opener">
+---
+layout: default
+nav: home
+description: "Br. Söderbergs Bygg AB bygger allt från altaner och badrum till totalrenoveringar och villor i Stockholms län, och levererar vattenrening för brunn och hav."
+---
+			<div class="hero hero-large">
 				<div class="carousel">
 					<div style="background-image:linear-gradient(0deg,rgba(0,0,0,.1),rgba(0,0,0,.1)),url(media/banner-1.jpg)"></div>
 					<div style="background-image:linear-gradient(0deg,rgba(0,0,0,.1),rgba(0,0,0,.1)),url(media/banner-2.jpg)"></div>
 				</div>
-				<div class="content">
+				<div class="hero-content">
 					<h1>Välkommen till Br. Söderbergs Bygg AB</h1>
 					<p>Vi bygger allt från mindre altaner till totalrenovering och ombyggnad av större villor och har numera även vattenreningsmaskiner på vår palett för att kunna producera dricksvatten från hav och sjö samt otjänlig eller sinande brunn.</p>
 				</div>
 			</div>
-			<div id="references">
+			<div class="reference-tiles">
 				<h2>Referenser</h2>
 				<ul>
-					<li tabindex="0">
-						<a href="references/altaner/"><p>Altaner</p></a>
+{%- for ref in site.data.references %}
+					<li>
+						<a tabindex="0" href="references/{{ ref.slug }}/"><p>{{ ref.name }}</p></a>
 						<img
-							src="media/referenser/altaner/sidhuvud.jpg"
-							alt="Bild av en altan med stenugn och två trappor kopplad till ett rött hus."
+							src="{{ ref.cover }}"
+							alt=""
 							height="200"
 						/>
 					</li>
-					<li tabindex="0">
-						<a href="references/badrum/"><p>Badrum</p></a>
-						<img
-							src="media/referenser/badrum/sidhuvud.jpg"
-							alt="Bild av ett badrum med ett badkar och ett handfat i ett ljust och modernt badrum."
-							height="200"
-						/>
-					</li>
-					<li tabindex="0">
-						<a href="references/hus/"><p>Hus</p></a>
-						<img
-							src="media/referenser/hus/sidhuvud.jpg"
-							alt="Bild av en altan med trappa som möter i en 30 grading vinkel"
-							height="200"
-						/>
-					</li>
-					<li tabindex="0">
-						<a href="references/kök/"><p>Kök</p></a>
-						<img
-							src="media/referenser/koek/sidhuvud.jpg"
-							alt="Bild av en altan med trappa som möter i en 30 grading vinkel"
-							height="200"
-						/>
-					</li>
-					<li tabindex="0">
-						<a href="references/trappor/"><p>Trappor</p></a>
-						<img
-							src="media/referenser/trappor/sidhuvud.jpg"
-							alt="Bild av en altan med trappa som möter i en 30 grading vinkel"
-							height="200"
-						/>
-					</li>
-					<li tabindex="0">
-						<a href="references/övrigt/"><p>Övrigt</p></a>
-						<img
-							src="media/referenser/annat/sidhuvud.jpg"
-							alt="Bild av en altan med trappa som möter i en 30 grading vinkel"
-							height="200"
-						/>
-					</li>
-					<li tabindex="0">
-						<a href="references/vattenrening/"><p>Vattenrening</p></a>
-						<img
-							src="media/referenser/vattenrening/sidhuvud.jpg"
-							alt="Bild av en altan med trappa som möter i en 30 grading vinkel"
-							height="200"
-						/>
-					</li>
+{%- endfor %}
 				</ul>
 			</div>
-			<div id="home-closing">
+			<div class="contact-block">
 				<h2>Hör av dig</h2>
 				<p>Kontakta oss för en offert eller vid frågor om våra tjänster.</p>
 				<p>Ring eller maila ett meddelande via länkarna under så återkommer vi inom kort!</p>
-				
-				<div>
-					<a tabindex="0" href="tel:0736124213">
-						<svg width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-						 <path id="Phone" d="M73.761 181.829 C86.188 194.236 99.305 205.437 113.113 215.431 126.921 225.426 140.729 233.353 154.537 239.212 168.345 245.071 181.42 248 193.761 248 202.132 248 209.942 246.492 217.191 243.477 224.44 240.461 230.999 235.722 236.867 229.26 240.319 225.469 243.038 221.398 245.023 217.047 247.008 212.696 248 208.323 248 203.929 248 200.655 247.353 197.532 246.058 194.559 244.764 191.586 242.563 189.023 239.456 186.869 L199.715 158.695 C196.695 156.627 193.89 155.076 191.301 154.042 188.712 153.008 186.252 152.491 183.922 152.491 180.988 152.491 178.14 153.288 175.379 154.882 172.617 156.476 169.769 158.738 166.835 161.667 L157.644 170.714 C156.349 172.093 154.71 172.782 152.725 172.782 151.689 172.782 150.718 172.61 149.812 172.265 148.906 171.92 148.151 171.619 147.547 171.36 143.491 169.206 138.313 165.48 132.013 160.181 125.713 154.882 119.37 149.045 112.984 142.669 106.684 136.293 100.859 129.96 95.508 123.67 90.157 117.381 86.447 112.254 84.375 108.291 84.03 107.602 83.707 106.805 83.405 105.9 83.102 104.995 82.951 104.069 82.951 103.121 82.951 101.226 83.599 99.632 84.893 98.339 L94.084 88.905 C96.932 85.975 99.176 83.132 100.816 80.375 102.455 77.618 103.275 74.774 103.275 71.845 103.275 69.519 102.736 67.063 101.657 64.478 100.578 61.893 98.96 59.093 96.803 56.078 L68.971 16.918 C66.727 13.816 64.052 11.554 60.945 10.132 57.838 8.711 54.559 8 51.107 8 42.218 8 33.89 11.748 26.123 19.244 19.823 25.275 15.228 31.931 12.337 39.212 9.446 46.492 8 54.268 8 62.54 8 74.947 10.891 87.978 16.673 101.635 22.455 115.291 30.308 128.969 40.233 142.669 50.158 156.368 61.333 169.422 73.761 181.829 Z"/>
+
+				<div class="contact-links">
+					<a tabindex="0" href="tel:+46736124213">
+						<svg aria-hidden="true" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+						 <path d="M73.761 181.829 C86.188 194.236 99.305 205.437 113.113 215.431 126.921 225.426 140.729 233.353 154.537 239.212 168.345 245.071 181.42 248 193.761 248 202.132 248 209.942 246.492 217.191 243.477 224.44 240.461 230.999 235.722 236.867 229.26 240.319 225.469 243.038 221.398 245.023 217.047 247.008 212.696 248 208.323 248 203.929 248 200.655 247.353 197.532 246.058 194.559 244.764 191.586 242.563 189.023 239.456 186.869 L199.715 158.695 C196.695 156.627 193.89 155.076 191.301 154.042 188.712 153.008 186.252 152.491 183.922 152.491 180.988 152.491 178.14 153.288 175.379 154.882 172.617 156.476 169.769 158.738 166.835 161.667 L157.644 170.714 C156.349 172.093 154.71 172.782 152.725 172.782 151.689 172.782 150.718 172.61 149.812 172.265 148.906 171.92 148.151 171.619 147.547 171.36 143.491 169.206 138.313 165.48 132.013 160.181 125.713 154.882 119.37 149.045 112.984 142.669 106.684 136.293 100.859 129.96 95.508 123.67 90.157 117.381 86.447 112.254 84.375 108.291 84.03 107.602 83.707 106.805 83.405 105.9 83.102 104.995 82.951 104.069 82.951 103.121 82.951 101.226 83.599 99.632 84.893 98.339 L94.084 88.905 C96.932 85.975 99.176 83.132 100.816 80.375 102.455 77.618 103.275 74.774 103.275 71.845 103.275 69.519 102.736 67.063 101.657 64.478 100.578 61.893 98.96 59.093 96.803 56.078 L68.971 16.918 C66.727 13.816 64.052 11.554 60.945 10.132 57.838 8.711 54.559 8 51.107 8 42.218 8 33.89 11.748 26.123 19.244 19.823 25.275 15.228 31.931 12.337 39.212 9.446 46.492 8 54.268 8 62.54 8 74.947 10.891 87.978 16.673 101.635 22.455 115.291 30.308 128.969 40.233 142.669 50.158 156.368 61.333 169.422 73.761 181.829 Z"/>
 						</svg>
 						<p>0736 - 12 42 13</p>
 					</a>
 					<a tabindex="0" href="mailto:mail@mail.mail">
-						<svg width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-						 	<path id="Shape" d="M29.188 209.5 C17.748 209.5 8.814 200.141 8.814 189.111 L8.814 60.84 C24.232 76.314 73.394 125.63 106 158 116.172 168.098 138.776 168.045 149 158 185.142 122.49 230.916 76.321 246.814 60.254 L246.814 189.111 C246.814 200.559 237.462 209.5 226.441 209.5 L29.188 209.5 Z M127.814 143.824 C125.862 143.824 123.91 143.079 122.42 141.588 L27.904 47 227.725 47 133.211 141.588 C131.721 143.079 129.767 143.824 127.814 143.824 Z"/>
+						<svg aria-hidden="true" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+						 	<path d="M29.188 209.5 C17.748 209.5 8.814 200.141 8.814 189.111 L8.814 60.84 C24.232 76.314 73.394 125.63 106 158 116.172 168.098 138.776 168.045 149 158 185.142 122.49 230.916 76.321 246.814 60.254 L246.814 189.111 C246.814 200.559 237.462 209.5 226.441 209.5 L29.188 209.5 Z M127.814 143.824 C125.862 143.824 123.91 143.079 122.42 141.588 L27.904 47 227.725 47 133.211 141.588 C131.721 143.079 129.767 143.824 127.814 143.824 Z"/>
 						</svg>
 						<p>mail@mail.mail</p>
 					</a>
 				</div>
 			</div>
-		</main>
-
-		<footer>
-			<div id="footer-padding">
-				<div id="company-info">
-					<h3>Br. Söderbergs Bygg AB</h3>
-					<div>
-						<p>Aspövägen 5<br/>760 19 Furusund</p>
-						<p>Bergsvägen 36B<br/>181 31 Lidingö<br/>Sverige
-							<a tabindex="0" href="https://www.openstreetmap.org/?#map=19/59.369930/18.143706"
-								target="_blank"
-								rel="noopener">
-								<img src="media/icons/location-black.svg" width="18" height="18"/>
-							</a>
-						</p>
-					</div>
-				</div>
-				<div id="accolades">
-					<img
-						src="media/certifikat/sigill.png"
-						alt="Sigillet för länets framgånsbolag 2024 från Entreprenörsvärlden; Organisationsnummer 556656-3309"
-						height="256"
-					/>
-				</div>
-			</div>
-		</footer>
-	</body>
-</html>
